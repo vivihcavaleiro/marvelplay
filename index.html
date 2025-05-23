@@ -6,7 +6,28 @@
     <title>Document</title>
 </head>
 <body>
-    
+     <html>
+          <head></head>
+          <body background="img/marvel_capa_widelg.jpg" width="1000px" height="800px" >
+          </body>
+     </html>
+
+    <form class="nome da classe">
+        <h1>SEJA BEM VINDO!</h1>
+        <!DOCTYPE html>
+  <html>
+       <head>
+            <style>
+             body {
+                 color: rgb(12, 1, 1);
+             }
+            </style>
+       </head>
+  </html>
+        <div>
+            <img class="img/deadpool" alt="cadastra-se" width="800px" height="100px">
+        </div>
+
 </body>
 </html>
 <form>
@@ -19,5 +40,15 @@
 
 <script>
     function logar(){
-        var login = document.getElementById
+        var login = document.getElementById('login').value
+        var senha = document.getElementById('senha').value
+
+        if(login == "admin" && senha == "admin"){
+            alert('Sucesso');
+            location.href = "home.html";
+        }else{
+            alert('Usuario ou senha incorretos');
+        }
+    }
+
 </script>
